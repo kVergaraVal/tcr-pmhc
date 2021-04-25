@@ -1,9 +1,3 @@
-#!pip install -q sklearn
-!pip install PyDrive
-from pydrive.auth import GoogleAuth
-from pydrive.drive import GoogleDrive
-from google.colab import auth
-from oauth2client.client import GoogleCredentials
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
