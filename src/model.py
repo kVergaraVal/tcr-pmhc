@@ -11,7 +11,6 @@ import torch.nn as nn  # All neural network modules, nn.Linear, nn.Conv2d, Batch
 import torch.optim as optim  # For all Optimization algorithms, SGD, Adam, etc.
 import torch.nn.functional as F  # All functions that don't have any parameters
 from torch.utils.data import DataLoader, ConcatDataset
-from torchvision import transforms
 from sklearn.model_selection import KFold
 from sklearn.metrics import matthews_corrcoef
 
